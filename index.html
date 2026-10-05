@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0B0C10">
+<meta name="description" content="QR ScanPro – a fast, private QR code and barcode scanner and generator for iPhone. Support and help.">
+<title>QR ScanPro – Support</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg:#0B0C10; --card:#14161D; --card2:#1B1E27;
+    --violet:#7C5CFF; --blue:#5B7CFF; --logo:#A460F5; --mint:#2EE6A6;
+    --text:#ffffff; --muted:rgba(255,255,255,.64); --line:rgba(255,255,255,.09);
+  }
+  * { box-sizing:border-box; }
+  html { background:var(--bg); color-scheme:dark; }
+  body {
+    margin:0; color:var(--text); min-height:100vh;
+    font:16px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background:
+      radial-gradient(900px 460px at 50% -120px, rgba(124,92,255,.30), transparent 70%),
+      radial-gradient(520px 360px at 100% 0, rgba(46,230,166,.07), transparent 65%),
+      var(--bg);
+  }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 40px; }
+  a { color:#b9a5ff; }
+  a:hover { color:#d8ccff; }
+  :focus-visible { outline:2px solid var(--logo); outline-offset:3px; border-radius:6px; }
+
+  .hero { text-align:center; padding:8px 0 34px; }
+  .icon {
+    width:112px; height:112px; border-radius:22.37%; display:block; margin:0 auto 22px;
+    box-shadow:0 18px 50px rgba(124,92,255,.38), 0 0 0 1px rgba(255,255,255,.06);
+  }
+  h1 { margin:0; font-size:clamp(2.1rem, 7vw, 2.8rem); letter-spacing:-.02em; line-height:1.1; font-weight:700; }
+  h1 .pro { color:var(--logo); }
+  .lead { color:var(--muted); margin:14px auto 0; max-width:30em; font-size:1.08rem; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-top:22px; }
+  .chip {
+    padding:6px 13px; border-radius:999px; font-size:.85rem; color:#dcd2ff;
+    background:rgba(124,92,255,.14); border:1px solid rgba(124,92,255,.32);
+  }
+
+  .card { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:26px 24px; margin-top:18px; }
+  h2 { margin:0 0 6px; font-size:1.25rem; letter-spacing:-.01em; }
+  .card p { color:var(--muted); margin:6px 0 0; }
+  .btn {
+    display:inline-block; margin-top:18px; padding:13px 24px; border-radius:999px; text-decoration:none;
+    color:#fff; font-weight:600; background:linear-gradient(135deg, var(--violet), var(--blue));
+    box-shadow:0 8px 24px rgba(124,92,255,.35);
+  }
+  .btn:hover { color:#fff; filter:brightness(1.1); }
+
+  details { background:var(--card2); border:1px solid var(--line); border-radius:14px; padding:0 18px; margin-top:10px; }
+  summary { cursor:pointer; padding:15px 0; font-weight:600; list-style:none; display:flex; justify-content:space-between; gap:12px; }
+  summary::-webkit-details-marker { display:none; }
+  summary::after { content:"+"; color:var(--mint); font-weight:700; }
+  details[open] summary::after { content:"\2013"; }
+  details p { margin:0 0 16px; }
+
+  footer { text-align:center; color:var(--muted); font-size:.9rem; padding:30px 0 10px; }
+  footer a { margin:0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <img class="icon" src="icon.png" alt="QR ScanPro app icon" width="112" height="112">
+    <h1>QR Scan<span class="pro">Pro</span></h1>
+    <p class="lead">A fast, private QR code and barcode scanner and generator for iPhone.</p>
+    <div class="chips">
+      <span class="chip">Instant scanning</span>
+      <span class="chip">Custom QR designs</span>
+      <span class="chip">One-tap Wi-Fi join</span>
+      <span class="chip">12 languages</span>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>Support</h2>
+    <p>Need help, found a bug, or have a suggestion? Send us an email and we'll get back to you.</p>
+    <a class="btn" href="mailto:davitisamakashvili@gmail.com">Email support</a>
+  </section>
+
+  <section class="card">
+    <h2>Common questions</h2>
+    <details>
+      <summary>How do I restore a purchase?</summary>
+      <p>Open Settings in the app and tap <em>Restore Purchases</em>. Use the same Apple ID you bought with.</p>
+    </details>
+    <details>
+      <summary>How do I remove ads?</summary>
+      <p>Open the Pro screen from Settings and choose <em>Remove Ads</em>, or get Yearly or Lifetime Pro, which also removes ads.</p>
+    </details>
+    <details>
+      <summary>How do I change the app language?</summary>
+      <p>Settings &rarr; App Language.</p>
+    </details>
+    <details>
+      <summary>Where is my scan history?</summary>
+      <p>On the History tab. It's stored only on your device. On the free plan, items that aren't favorites are removed after a few days; star an item to keep it.</p>
+    </details>
+    <details>
+      <summary>A Wi-Fi code won't connect.</summary>
+      <p>iOS asks you to confirm before joining. Check that the network is in range and the code is for a WPA/WPA2/WPA3 or open network.</p>
+    </details>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a>
+    <p>&copy; 2026 Daviti Samakashvili</p>
+  </footer>
+</main>
+</body>
+</html>
